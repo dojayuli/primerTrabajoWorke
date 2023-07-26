@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&family=Mulish:wght@400;500;700&family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;    
+    background-image: linear-gradient(to right top, #00000021, #3d101c52, #3d0c188a, #941c345b, #eb121248), url(/gymBack.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    position:absolute;
+    top: 45%;
+    left: 35%; 
+    font-size: 100px;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(243, 17, 17, 0.699); 
+    margin: auto;
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    padding: 20px 0;         
+}
+
+.nav ul{
+    
+    display: flex; 
+    justify-content: space-around; 
+    list-style: none;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; 
+    padding: 0  25px; 
+}
+.nav a:hover{
+    background-color: white; 
+    color: black; 
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+/* seccion galeria */
+.galeria{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-image: linear-gradient(rgba(0,14,41,6), rgba(45, 51, 121, 0.5)), url(/chicofit.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.galeria .contenido-section{
+    max-width: 1100px;   
+    margin: auto;
+    padding: 0 20px
+}
+.galeria .fila{
+    display: flex;
+}
+
+.galeria .fila .col img{
+    width: 100%;
+    display:flexbox;
+}
+
+.services .col-services{
+    max-width: 800px;
+    margin: auto;
+}
+
+.services .col-services table{
+    text-align: center;
+    background: linear-gradient(to top, #eebfbfe1, #e09191, #f082be, #ff5b89a1, #eb062c56);
+    border-collapse: collapse;
+    position: relative;
+    /* bottom: 100px; */
+}
+.services .col-services table td{
+    padding: 30px;
+    border: 1px solid white;
+}
+.services .col-services table td i{
+    color: red;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.services .col-services h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.services .col-services p{
+    line-height: 30px;
+}
+footer{
+    background: black;
+    padding: 30px 0;
+}
+footer .info{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+footer .info a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 15px;
+}
+
